@@ -12,17 +12,17 @@ The Lane–Emden conjecture is a well-known open problem in the theory of nonlin
 
 The classical Lane–Emden system is given by
 
-\[
+$$
 -\Delta u = v^p, \qquad -\Delta v = u^q \quad \text{in } \mathbb{R}^N,
-\]
+$$
 
-where \(p, q > 0\). The Lane–Emden conjecture states that there is no non-trivial non-negative solution whenever the pair \((p,q)\) lies **under** the critical Sobolev hyperbola
+where $p, q > 0$. The Lane–Emden conjecture states that there is no non-trivial non-negative solution whenever the pair $(p,q)$ lies **under** the critical Sobolev hyperbola
 
-\[
+$$
 \frac{1}{p+1} + \frac{1}{q+1} > \frac{N-2}{N}.
-\]
+$$
 
-The conjecture has been proved for radial solutions, in dimensions \(N \le 3\), and in certain subregions of the subcritical range. The general case remains open.
+The conjecture has been proved for radial solutions, in dimensions $N \le 3$, and in certain subregions of the subcritical range. The general case remains open.
 
 ## Main Results
 
@@ -30,40 +30,40 @@ The conjecture has been proved for radial solutions, in dimensions \(N \le 3\), 
 
 We consider the weighted fractional system
 
-\[
+$$
 (-\Delta)^s u = |x|^A v^p, \qquad (-\Delta)^s v = |x|^B u^q \quad \text{in } \mathbb{R}^N \setminus \{0\},
-\]
+$$
 
-where \(0 < s < 1\), \(N > 2s\), and the weights \(A, B\) are arbitrary real numbers. We extend the localized kernel virial and interval pressure method to this setting for general solution pairs. The statement allows all real weights and all positive powers, in every integer dimension \(N > 2s\).
+where $0 < s < 1$, $N > 2s$, and the weights $A, B$ are arbitrary real numbers. We extend the localized kernel virial and interval pressure method to this setting for general solution pairs. The statement allows all real weights and all positive powers, in every integer dimension $N > 2s$.
 
 **Key features:**
 
 - Continuity at the origin and the usual fractional tail class are explicit.
 - The potential reduction forces admissible origin weights.
-- The product range \(pq \le 1\) is excluded directly.
-- For \(pq > 1\), the weighted critical hyperbola enters through universal local energy and dilation.
-- Diagonal cancellation covers \(2s \le 1\); the one-dimensional pressure argument uses a single line.
+- The product range $pq \le 1$ is excluded directly.
+- For $pq > 1$, the weighted critical hyperbola enters through universal local energy and dilation.
+- Diagonal cancellation covers $2s \le 1$; the one-dimensional pressure argument uses a single line.
 
 ### 2. Weighted Polyharmonic Lane–Emden Systems
 
 We prove subcritical Liouville theorems for the weighted polyharmonic system
 
-\[
+$$
 (-\Delta)^m u = |x|^A v^p, \qquad (-\Delta)^m v = |x|^B u^q \quad \text{in } \mathbb{R}^N \setminus \{0\},
-\]
+$$
 
-where \(m, N\) are positive integers with \(N > 2m\), \(p, q \ge 1\), and \(pq > 1\). The weights \(A, B \in \mathbb{R}\) are arbitrary. Under the subcritical condition
+where $m, N$ are positive integers with $N > 2m$, $p, q \ge 1$, and $pq > 1$. The weights $A, B \in \mathbb{R}$ are arbitrary. Under the subcritical condition
 
-\[
+$$
 \frac{N+A}{p+1} + \frac{N+B}{q+1} > N - 2m,
-\]
+$$
 
-we prove that there is no nonzero nonnegative solution continuous on \(\mathbb{R}^N\) and classical away from the origin.
+we prove that there is no nonzero nonnegative solution continuous on $\mathbb{R}^N$ and classical away from the origin.
 
 **Key features:**
 
 - No boundedness, decay, radial symmetry, finite energy, or sign conditions on intermediate Laplacians are assumed.
-- An exact Riesz representation is obtained, showing that a hypothetical nonzero solution forces \(A, B > -2m\).
+- An exact Riesz representation is obtained, showing that a hypothetical nonzero solution forces $A, B > -2m$.
 - A weighted virial identity and interval comparison give a universal local energy bound; subcritical scaling contradicts this bound.
 - The unweighted higher-order Lane–Emden theorem follows as a corollary.
 
