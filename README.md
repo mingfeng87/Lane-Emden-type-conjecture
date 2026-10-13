@@ -8,22 +8,6 @@ The Lane–Emden conjecture is a well-known open problem in the theory of nonlin
 
 > **Status:** Draft. These are candidate proofs, not yet fully verified.
 
-## Background: The Lane–Emden Conjecture
-
-The classical Lane–Emden system is given by
-
-$$
--\Delta u = v^p, \qquad -\Delta v = u^q \quad \text{in } \mathbb{R}^N,
-$$
-
-where $p, q > 0$. The Lane–Emden conjecture states that there is no non-trivial non-negative solution whenever the pair $(p,q)$ lies **under** the critical Sobolev hyperbola
-
-$$
-\frac{1}{p+1} + \frac{1}{q+1} > \frac{N-2}{N}.
-$$
-
-The conjecture has been proved for radial solutions, in dimensions $N \le 3$, and in certain subregions of the subcritical range. The general case remains open.
-
 ## Main Results
 
 ### 1. Weighted Fractional Lane–Emden Systems
